@@ -5,7 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Get a free water test — Scituate Water Watch</title>
 <meta name="description" content="Request a free in-home water test from Scituate Water Watch.">
+<link rel="canonical" href="https://scituate.mawaterwatch.org/get-tested.html">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<meta name="theme-color" content="#0A2338">
 <link rel="stylesheet" href="css/styles.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Scituate Water Watch">
+<meta property="og:title" content="Get a free water test — Scituate Water Watch">
+<meta property="og:description" content="Request a free in-home water test from Scituate Water Watch.">
+<meta property="og:url" content="https://scituate.mawaterwatch.org/get-tested.html">
+<meta property="og:image" content="https://scituate.mawaterwatch.org/images/harbor-town.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Get a free water test — Scituate Water Watch">
+<meta name="twitter:description" content="Request a free in-home water test from Scituate Water Watch.">
+<meta name="twitter:image" content="https://scituate.mawaterwatch.org/images/harbor-town.jpg">
 </head>
 <body>
 
@@ -38,7 +51,12 @@
 <section class="block">
   <div class="wrap two-col">
     <div>
-      <form class="site-form" action="#" method="post">
+      <form class="site-form" data-web3forms data-success-message="Thanks — a volunteer will reach out within a few days to schedule your free test." action="https://api.web3forms.com/submit" method="post">
+        <input type="hidden" name="access_key" value="9eac4dfe-48b4-408a-98f4-445d9a244263">
+        <input type="hidden" name="subject" value="New free water test request — Scituate Water Watch">
+        <input type="hidden" name="from_name" value="Scituate Water Watch site">
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
         <label for="name">Full name</label>
         <input type="text" id="name" name="name" placeholder="Jane Sullivan" required>
 
@@ -92,5 +110,6 @@
   </div>
 </footer>
 
+<script src="js/site-form.js"></script>
 </body>
 </html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://scituate.mawaterwatch.org/sitemap.xml
